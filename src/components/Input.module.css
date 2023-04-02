@@ -1,4 +1,29 @@
 .container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.container:first-of-type {
+    flex-basis: 60%;
+}
+
+.container:last-of-type {
+    flex-basis: 20%;
+    max-width: 7rem;
+}
+
+.container label {
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+    margin-left: 6px;
+    font-weight: 500;
+    color: rgb(200, 77, 248);
+}
+
+.container input {
+    padding: 0.83rem 0.6rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px #d3d3d3 solid;
 }
