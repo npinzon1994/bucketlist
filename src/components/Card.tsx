@@ -7,7 +7,14 @@ type Props = {
 };
 
 const Card: FC<Props> = (props) => {
-  return <div className={`${classes.card} ${props.className}`}>{props.children}</div>;
+  return (
+    <div
+      className={`${classes.card} ${props.className}`}
+      data-testid="container"
+    >
+      {props.children}
+    </div>
+  );
 };
 
 export default Card;

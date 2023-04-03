@@ -39,7 +39,7 @@ const ListItemForm: FC<Props> = (props) => {
 
   return (
     <Card className={classes.card}>
-      <form className={classes.form} onSubmit={submitGoal}>
+      <form className={classes.form} onSubmit={submitGoal} data-testid="form">
         <Input
           id="description"
           labelText="Goal"
@@ -54,7 +54,13 @@ const ListItemForm: FC<Props> = (props) => {
           ref={yearRef}
           type="number"
         />
-        <button type="submit" className={classes.button}>+</button>
+        <button
+          type="submit"
+          className={classes.button}
+          data-testid="submit-button"
+        >
+          +
+        </button>
       </form>
     </Card>
   );
