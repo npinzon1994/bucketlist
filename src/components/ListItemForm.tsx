@@ -4,6 +4,7 @@ import classes from "./ListItemForm.module.css";
 import { useRef } from "react";
 import ListItemObject from "../model/ListItem";
 import Card from "./Card";
+import { v4 as uuidv4 } from "uuid";
 
 type Props = {
   onSaveItem: (item: ListItemObject) => void;
@@ -13,16 +14,17 @@ const ListItemForm: FC<Props> = (props) => {
   const goalRef = useRef<HTMLInputElement | null>(null);
   const yearRef = useRef<HTMLInputElement | null>(null);
 
+  function generateId(): string {
+    return uuidv4();
+  }
+
   function submitGoal(event: FormEvent) {
     event.preventDefault();
 
     const enteredGoal = goalRef.current!.value;
     const enteredYear = parseInt(yearRef.current!.value);
 
-    if (
-      enteredGoal.toString().trim().length === 0 ||
-      enteredYear.toString().trim().length === 0
-    ) {
+    if (enteredGoal.toString().trim().length === 0 || !enteredYear) {
       return;
     }
 
@@ -30,7 +32,10 @@ const ListItemForm: FC<Props> = (props) => {
       return;
     }
 
-    const item = new ListItemObject(enteredGoal, enteredYear);
+    //generate ID here
+    const id = generateId();
+
+    const item = new ListItemObject(enteredGoal, enteredYear, id);
     props.onSaveItem(item);
 
     goalRef.current!.value = "";
