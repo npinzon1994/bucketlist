@@ -1,13 +1,48 @@
 .card {
     background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    /* border: 2px solid #666; */
+}
+
+.hide-scrollbar-wrapper {
+  overflow: auto;
+  border-radius: 20px;
 }
 
 .list {
     padding: 0;
+    max-height: 60dvh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
 }
 
 .empty-list-message {
     text-align: center;
     padding-block: 2rem;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a7a7a7;
 }

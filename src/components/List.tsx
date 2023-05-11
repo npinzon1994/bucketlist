@@ -4,7 +4,10 @@ import ListItemObject from "../model/ListItem";
 import classes from "./List.module.css";
 import Card from "./Card";
 
-type Props = { items: ListItemObject[]; updateListItems: (newItems: ListItemObject[]) => void };
+type Props = {
+  items: ListItemObject[];
+  updateListItems: (newItems: ListItemObject[]) => void;
+};
 
 const List: FC<Props> = (props) => {
   function removeItem(id: string) {
@@ -23,15 +26,17 @@ const List: FC<Props> = (props) => {
 
   return (
     <Card className={classes.card}>
-      <ul className={classes.list}>
-        {items.length === 0 ? (
-          <p className={classes["empty-list-message"]}>
-            Uh oh! You haven't recorded any goals yet!
-          </p>
-        ) : (
-          items
-        )}
-      </ul>
+      <div className={classes["hide-scrollbar-wrapper"]}>
+        <ul className={classes.list}>
+          {items.length === 0 ? (
+            <p className={classes["empty-list-message"]}>
+              Uh oh! You haven't recorded any goals yet!
+            </p>
+          ) : (
+            items
+          )}
+        </ul>
+      </div>
     </Card>
   );
 };

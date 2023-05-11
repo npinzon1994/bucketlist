@@ -24,8 +24,8 @@ const ListItem: FC<Props> = (props) => {
       onMouseLeave={() => setShowDeleteButton(false)}
       onClick={deleteItem}
     >
-      <span>{props.description}</span>
-      <span>{props.year}</span>
+      <span className={classes.description}>{props.description}</span>
+      <span className={classes.year}>{props.year}</span>
       {showDeleteButton && <DeleteIcon />}
     </li>
   );

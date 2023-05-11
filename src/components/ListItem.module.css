@@ -9,19 +9,20 @@
     border-bottom: 1px #d3d3d3 solid;
     position: relative;
     cursor: pointer;
+    font-family: 'Jost', sans-serif;
 }
 
 .list-item:first-of-type {
-    border-radius: 20px 20px 0 0;
+    /* border-radius: 20px 20px 0 0; */
 }
 
-.list-item:last-of-type {
+/* .list-item:last-of-type {
     border-bottom: none;
     border-radius: 0 0 20px 20px;
-}
+} */
 
 .list-item:only-of-type {
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .list-item span:first-of-type {
@@ -38,4 +39,12 @@
 
 .list-item:active {
     background: #ebebeb;
+}
+
+.description {
+    margin-right: 0.5rem;
+}
+
+.year {
+    margin-right: 0.5rem;
 }
