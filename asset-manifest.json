@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bucketlist/static/css/main.9d5464c6.css",
-    "main.js": "/bucketlist/static/js/main.08734adc.js",
+    "main.css": "/bucketlist/static/css/main.0c17d1a7.css",
+    "main.js": "/bucketlist/static/js/main.2d9f3fe7.js",
     "static/media/beach2.jpg": "/bucketlist/static/media/beach2.f68b0f802ff09d8a6375.jpg",
     "static/media/red-delete.svg": "/bucketlist/static/media/red-delete.f8fb33058c82e8aa1d0be3dce908001b.svg",
     "index.html": "/bucketlist/index.html",
-    "main.9d5464c6.css.map": "/bucketlist/static/css/main.9d5464c6.css.map",
-    "main.08734adc.js.map": "/bucketlist/static/js/main.08734adc.js.map"
+    "main.0c17d1a7.css.map": "/bucketlist/static/css/main.0c17d1a7.css.map",
+    "main.2d9f3fe7.js.map": "/bucketlist/static/js/main.2d9f3fe7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d5464c6.css",
-    "static/js/main.08734adc.js"
+    "static/css/main.0c17d1a7.css",
+    "static/js/main.2d9f3fe7.js"
   ]
 }
