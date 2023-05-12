@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bucketlist/static/css/main.fe47d70b.css",
-    "main.js": "/bucketlist/static/js/main.6c801735.js",
+    "main.css": "/bucketlist/static/css/main.771fc9d0.css",
+    "main.js": "/bucketlist/static/js/main.a73856d2.js",
     "static/media/beach2.jpg": "/bucketlist/static/media/beach2.f68b0f802ff09d8a6375.jpg",
     "static/media/red-delete-big.svg": "/bucketlist/static/media/red-delete-big.7b4a1b7b98a3118b04e9ef058f6624bc.svg",
     "static/media/red-delete.svg": "/bucketlist/static/media/red-delete.f8fb33058c82e8aa1d0be3dce908001b.svg",
-    "static/media/cross.svg": "/bucketlist/static/media/cross.317d947139ee2f27ec75a6cfc0612fa4.svg",
+    "static/media/cross.svg": "/bucketlist/static/media/cross.915161476d9cabef3f6e585967cc879f.svg",
     "index.html": "/bucketlist/index.html",
-    "main.fe47d70b.css.map": "/bucketlist/static/css/main.fe47d70b.css.map",
-    "main.6c801735.js.map": "/bucketlist/static/js/main.6c801735.js.map"
+    "main.771fc9d0.css.map": "/bucketlist/static/css/main.771fc9d0.css.map",
+    "main.a73856d2.js.map": "/bucketlist/static/js/main.a73856d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe47d70b.css",
-    "static/js/main.6c801735.js"
+    "static/css/main.771fc9d0.css",
+    "static/js/main.a73856d2.js"
   ]
 }
