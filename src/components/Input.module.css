@@ -1,31 +1,41 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 5px;
 }
 
 .container:first-of-type {
-    flex-basis: 60%;
+  flex: 2;
 }
 
-.container:last-of-type {
-    flex-basis: 20%;
-    max-width: 7rem;
+.container:last-child {
+  margin-right: 0;
 }
 
 .container label {
-    font-size: 0.9rem;
-    margin-bottom: 4px;
-    margin-left: 6px;
-    font-weight: 500;
-    color: rgb(200, 77, 248);
-    font-family: 'Jost', sans-serif;
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(200, 77, 248);
+  font-weight: 500;
+  font-size: 0.8rem;
+  font-family: "Jost", sans-serif;
+  margin-left: 5px;
+  white-space: nowrap;
 }
 
 .container input {
-    padding: 0.83rem 0.6rem;
-    font-size: 1rem;
-    border-radius: 10px;
-    border: 1px #d3d3d3 solid;
-    font-family: 'Jost', sans-serif;
+  border: none;
+  border-radius: 14px;
+  padding: 1rem;
+  background-color: rgba(37, 37, 37, 0.85);
+  color: white;
+  font-size: 1rem;
+  font-family: "Jost", sans-serif;
+  outline-color: transparent;
+  width: 100%;
+}
+
+.container input::placeholder {
+  color: rgb(146, 146, 146);
 }

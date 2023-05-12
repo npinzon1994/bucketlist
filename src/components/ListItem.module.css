@@ -1,50 +1,52 @@
 .list-item {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.2rem;
-    padding-inline: 2.6rem;
-    padding-block: 0.7rem;
-    border-bottom: 1px #d3d3d3 solid;
-    position: relative;
-    cursor: pointer;
-    font-family: 'Jost', sans-serif;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding-inline: 2.6rem;
+  padding-block: 0.7rem;
+  border-bottom: 1px #d3d3d3 solid;
+  position: relative;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
 }
 
 .list-item:first-of-type {
-    /* border-radius: 20px 20px 0 0; */
+  /* border-radius: 20px 20px 0 0; */
 }
 
-/* .list-item:last-of-type {
-    border-bottom: none;
-    border-radius: 0 0 20px 20px;
-} */
+.list-item:last-of-type {
+  border-bottom: none;
+  border-radius: 0 0 20px 20px;
+}
 
 .list-item:only-of-type {
-    /* border-radius: 20px; */
+  border-radius: 20px;
 }
 
 .list-item span:first-of-type {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .list-item span:last-of-type {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .list-item:hover {
-    background: #e0e0e0;
+  background: #e0e0e0;
 }
 
 .list-item:active {
-    background: #ebebeb;
+  background: #ebebeb;
 }
 
 .description {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
+  flex-basis: 86%;
 }
 
 .year {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
+  flex-basis: 14%;
 }
