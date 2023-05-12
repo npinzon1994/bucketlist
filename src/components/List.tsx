@@ -1,4 +1,4 @@
-import { FC, MouseEvent } from "react";
+import { FC } from "react";
 import ListItem from "./ListItem";
 import ListItemObject from "../model/ListItem";
 import classes from "./List.module.css";

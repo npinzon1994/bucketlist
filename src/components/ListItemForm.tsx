@@ -3,7 +3,6 @@ import Input from "./Input";
 import classes from "./ListItemForm.module.css";
 import { useRef } from "react";
 import ListItemObject from "../model/ListItem";
-import Card from "./Card";
 import { v4 as uuidv4 } from "uuid";
 
 type Props = {

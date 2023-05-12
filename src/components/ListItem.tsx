@@ -1,4 +1,4 @@
-import { FC, MouseEvent, useState } from "react";
+import { FC, useState } from "react";
 import classes from "./ListItem.module.css";
 import DeleteIcon from "./DeleteIcon";
 
