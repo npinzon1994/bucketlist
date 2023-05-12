@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bucketlist/static/css/main.a445d446.css",
+    "main.css": "/bucketlist/static/css/main.2d2196dd.css",
     "main.js": "/bucketlist/static/js/main.024b9a25.js",
     "static/media/beach2.jpg": "/bucketlist/static/media/beach2.f68b0f802ff09d8a6375.jpg",
     "static/media/red-delete.svg": "/bucketlist/static/media/red-delete.f8fb33058c82e8aa1d0be3dce908001b.svg",
     "index.html": "/bucketlist/index.html",
-    "main.a445d446.css.map": "/bucketlist/static/css/main.a445d446.css.map",
+    "main.2d2196dd.css.map": "/bucketlist/static/css/main.2d2196dd.css.map",
     "main.024b9a25.js.map": "/bucketlist/static/js/main.024b9a25.js.map"
   },
   "entrypoints": [
-    "static/css/main.a445d446.css",
+    "static/css/main.2d2196dd.css",
     "static/js/main.024b9a25.js"
   ]
 }
