@@ -13,7 +13,7 @@
 }
 
 .list-item:first-of-type {
-  /* border-radius: 20px 20px 0 0; */
+  border-radius: 20px 20px 0 0;
 }
 
 .list-item:last-of-type {
@@ -25,16 +25,16 @@
   border-radius: 20px;
 }
 
-.list-item span:first-of-type {
-  font-weight: 300;
+/*Targets devices that support hover*/
+@media (hover: hover) {
+  .list-item:hover {
+    background: #e0e0e0;
+  }
 }
 
-.list-item span:last-of-type {
-  font-weight: 600;
-}
-
-.list-item:hover {
-  background: #e0e0e0;
+/*Will only target devices that don't support hover*/
+@media (hover: none) {
+  
 }
 
 .list-item:active {
@@ -44,9 +44,12 @@
 .description {
   margin-right: 0.5rem;
   flex-basis: 86%;
+  font-weight: 300;
+  -webkit-font-weight: 300;
 }
 
 .year {
   margin-right: 0.5rem;
   flex-basis: 14%;
+  font-weight: 600;
 }

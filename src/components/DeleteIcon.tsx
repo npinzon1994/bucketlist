@@ -1,4 +1,3 @@
-import React from "react";
 import classes from "./DeleteIcon.module.css";
 import { ReactComponent as Icon } from "../assets/red-delete.svg";
 
