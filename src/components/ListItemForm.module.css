@@ -16,7 +16,7 @@
   background: rgb(200, 77, 248);
   cursor: pointer;
   font-size: 2.3rem;
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
   box-sizing: border-box;
   height: 100%;
   color: #fff;
@@ -33,7 +33,7 @@
   transition: none;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 319px) {
   /* Adjust alignment for smaller screens */
   .form-container {
     align-items: stretch;
