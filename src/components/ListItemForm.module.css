@@ -32,3 +32,14 @@
   background: rgb(210, 104, 252);
   transition: none;
 }
+
+@media (max-width: 414px) {
+  /* Adjust alignment for smaller screens */
+  .form-container {
+    align-items: stretch;
+  }
+
+  .form-button {
+    align-self: stretch;
+  }
+}
