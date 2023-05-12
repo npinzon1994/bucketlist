@@ -48,7 +48,7 @@ const ListItemForm: FC<Props> = (props) => {
         <Input
           id="description"
           labelText="Goal"
-          placeholder="What would you like to accomplish?"
+          placeholder="Goal"
           ref={goalRef}
           type="text"
         />
